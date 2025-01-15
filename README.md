@@ -2,7 +2,7 @@
 
 Welcome to my personal exploration of DevOps! This repository is where I log my journey into the dynamic world of DevOps. It serves as a record of my progress, covering everything from core concepts to practical labs and projects. Whether you're here to track my development or gather ideas for your own path, I hope you find value in this adventure. Let’s learn and grow together!
 
-## 🧠about this repository 
+## 🧠About this repository 
 
 This repository is structured into various modules, each focusing on a key aspect of DevOps. Each module has its own dedicated folder to organize my notes, hands-on labs, and other related resources.
 
@@ -42,7 +42,7 @@ Currently acquiring knowledge on the **Linux** and **Git**, where I am learning 
 
 - **Document Effectively**: I maintain clear and comprehensive documentation, creating a valuable resource for both my future reference and for others exploring similar topics.
 
- ## Connect with me
+ ## Connect With Me
 
 Feel free to reach out if you want to collaborate or discuss any DevOps topics. Follow my journey on LinkedIn, where I’ll be sharing key milestones and insights
 - [LinkedIn](https://www.linkedin.com/in/uzayr-kadar-9505b2204/)
