@@ -42,9 +42,9 @@ Currently acquiring knowledge on the **Linux** and **Git**, where I am learning 
 
 - **Document Effectively**: I maintain clear and comprehensive documentation, creating a valuable resource for both my future reference and for others exploring similar topics.
 
-- ## Connect with me
+ ## Connect with me
 
-- Feel free to reach out if you want to collaborate or discuss any DevOps topics. Follow my journey on LinkedIn, where I’ll be sharing key milestones and insights
+Feel free to reach out if you want to collaborate or discuss any DevOps topics. Follow my journey on LinkedIn, where I’ll be sharing key milestones and insights
 - [LinkedIn](https://www.linkedin.com/in/uzayr-kadar-9505b2204/)
 - [Email:KadarUzayr@gmail.com](mailto:kadaruzayr@gmail.com)
   
