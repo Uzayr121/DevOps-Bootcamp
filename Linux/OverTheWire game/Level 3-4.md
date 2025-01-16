@@ -8,6 +8,7 @@ The password for the next level is stored in a hidden file in the inhere directo
 - `ls`: A command used to list the contents of a directory
 - `cat`: A command used concatenate files and print on the standard output
 - `man`: A command used before other commands to display the manual page of the command, with all it's options and a description of the command
+- `cd`: A command used to change directories
 ## **Solution**
 
 Step 1:
