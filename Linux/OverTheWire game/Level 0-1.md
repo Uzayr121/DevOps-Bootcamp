@@ -14,7 +14,8 @@ Step 1:
 - You will see a file called readme
 
 Step 2
-- Use the cat command to display the contents of the file. The general syntax for the `cat` command is `cat [option][file]
+- Use the cat command to display the contents of the file. The general syntax for the `cat` command is `cat [option][file]`
+
 Step 3
 - Once you've used the cat command with the file, you will get the passowrd to access the next level
 
