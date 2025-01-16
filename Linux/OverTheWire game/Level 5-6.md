@@ -16,7 +16,6 @@ The password for the next level is stored in a file somewhere under the inhere d
 
 Step 1:
 - Using the password from the previous level to connect with the server, we use `cd inhere` and `ls` to list contents of the directory
-- 
 
 Step 2
 - We have to find a file with specific requirements, so we use `find . -readable -size 1033c ! -executable`
