@@ -1,6 +1,5 @@
 ## what is vim
 
-- 
 Vim (Vi IMproved) is a highly efficient and versatile text editor used primarily on Unix-like systems. An enhanced version of the classic `vi` editor, Vim features multiple modes for editing and navigating text, including normal, insert, and command modes. Known for its speed and lightweight design, Vim is customizable through plugins and configuration files, making it popular among programmers and system administrators.
 
 ## what are the modes in vim
