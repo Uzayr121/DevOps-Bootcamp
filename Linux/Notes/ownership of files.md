@@ -17,4 +17,4 @@
 
 - if you want to change the user/group of a file/directory you must use this `sudo chown/chgrp (file/directory)`. this changes the user/group of that file/directory
 - if you want to change the owner and group of a file simultaneously you use chown. `sudo chown user:group file` this changes the owner and group associated with the file at the same time
-- if you want to do the same for a directory we must use the -R option. this changes it recursively, so everything within that directory takes the new user as owner and group as associate. `sudo chown -R user:group directory
+- if you want to change both user and group for a directory we must use the -R option. this changes it recursively, so everything within that directory takes the new user as owner and group as associate. `sudo chown -R user:group directory
