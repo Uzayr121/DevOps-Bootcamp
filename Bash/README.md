@@ -31,7 +31,6 @@ Bash (Bourne Again SHell) is a powerful command-line interpreter and scripting l
 ### Loops
 - `for i in {1..5}; do echo "Iteration $i"; done` - For loop.
 - `while [ condition ]; do command; done` - While loop.
-- `until [ condition ]; do command; done` - Until loop.
 
 ### Functions
 - `function_name() { commands; }` - Defines a function.
@@ -49,17 +48,12 @@ Bash (Bourne Again SHell) is a powerful command-line interpreter and scripting l
 - `ps` - Lists running processes.
 - `kill PID` - Terminates a process.
 - `nohup script.sh &` - Runs a script in the background.
-- `jobs` - Lists background jobs.
+
 
 ### Debugging
 - `bash -x script.sh` - Runs a script in debug mode.
 - `set -x` - Enables debugging within a script.
 - `set +x` - Disables debugging.
-
-### Networking
-- `ping -c 4 google.com` - Tests connectivity.
-- `curl -s http://example.com` - Fetches content from a URL.
-- `wget http://example.com/file.txt` - Downloads a file.
 
 ### Error Handling
 - `command || echo "Command failed"` - Executes a fallback command if the previous command fails.
