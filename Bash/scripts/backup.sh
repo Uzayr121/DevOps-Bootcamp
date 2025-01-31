@@ -12,3 +12,4 @@ cp $1/*.txt backup/
 
 # this will copy all .txt files from the directory specified in the first argument to the backup directory
 # if the directory does not exist, the script will exit with an error message
+# the -p flag will create the backup directory if it does not exist
