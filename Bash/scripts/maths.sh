@@ -11,10 +11,10 @@ else
 echo "calculating results"
 fi
 
-addition=$(($num1 + $num2))
-subtraction=$(($num1 - $num2))
-multiplication=$(($num1 * $num2))
-division=$(($num1/$num2))
+addition=$((num1 + num2))
+subtraction=$((num1 - num2))
+multiplication=$((num1 * num2))
+division=$((num1/num2))
 
 echo "addition: $addition"
 echo "subtraction: $subtraction"
