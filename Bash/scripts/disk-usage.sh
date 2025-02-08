@@ -12,6 +12,8 @@ while true; do # use a while loop because we want to check contiuously
                 echo "disk space is below 85%"
         fi
         echo "logging check to : $file"
-         echo "this is the current diskspace of the home directory "$diskspace"" >> /var/log/"$file" # appends to the file of your choice, we use the append operator because we want each check to be logged instead of each one overwriting each other
+         echo "this is the current diskspace of the home directory "$diskspace"" | sudo tee -a /var/log/"$file" > /dev/null # appends to the file of your choice, we use the append operator because we want each check to be logged instead of each one overwriting each other
+        # we have to use sudo otherwise it says permission denied, we use tee -a to append to the file of our choice, we have to use this otherwise nothing happens because there is no command after sudo so it doesn't take the input from echo into the file
+        # we direct it to /dev/null because tee will take the input, write it to the file and to stdout. So we use it so that it doesn't print our message in the terminal
         sleep 600 # checks every 10 minutes
 done
