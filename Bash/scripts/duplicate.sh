@@ -1,6 +1,6 @@
 #!/bin/bash
 
-directory="tt"
+directory="$1"
 
 Duplicate=$(find "$directory" -type f -exec md5sum {} \; | sort | uniq -w 32 --all-repeated=separate | cut -d ' ' -f3-)
 # this finds the files within the directory of your choice, and extracts the md5sum
