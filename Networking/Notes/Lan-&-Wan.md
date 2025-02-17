@@ -2,6 +2,7 @@
 
 - LAN stands for local area network. 
 - Used to connect devices within a small area, e.g., a school, home or an office
+
  Key feaures:
 - Low latnecy
 - High speed
@@ -19,6 +20,7 @@ Components:
 - WAN stands for wide area network
 - Connects multiple LANs together
 - Connects devices in a large geographical area, e.g. a city, country or evn continent
+ 
  key features:
 - Slower than LAN
 - High latency
