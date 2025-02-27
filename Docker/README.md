@@ -26,26 +26,26 @@ Containers are isolated environments that bundle an application and its dependen
 
 - A Dockerfile is a script containing a set of instructions to build a Docker image. It defines the application environment, dependencies, and configurations. Example Dockerfile:
 
-FROM python:3.9
-WORKDIR /app
-COPY . .
-RUN pip install flask mysqlclient
-CMD ["python", "app.py"]
+- FROM python:3.9
+- WORKDIR /app
+- COPY . .
+- RUN pip install flask mysqlclient
+- CMD ["python", "app.py"]
 
 # Docker Compose
 
 - Docker Compose allows you to define and manage multi-container applications using a YAML configuration file. It simplifies running multiple services (e.g., a web app and a database) together. Example docker-compose.yml:
 
-version: '3'
-services:
-  web:
-    build: .
-    ports:
+- version: '3'
+- services:
+  - web:
+    - build: .
+    - ports:
       - "5000:5000"
-    depends_on:
+    - depends_on:
       - redis
-  redis:
-    image: "redis:latest"
+  - redis:
+    - image: "redis:latest"
 
 # Docker Registry
 
@@ -59,15 +59,15 @@ A Docker registry is a storage system for Docker images. It allows developers to
 
 Multi-stage builds allow creating optimized and lightweight images by using multiple build stages in a Dockerfile. This reduces the final image size and improves security. Example:
 
-FROM golang:alpine AS builder
-WORKDIR /app
-COPY . .
-RUN go build -o myapp
+- FROM golang:alpine AS builder
+- WORKDIR /app
+- COPY . .
+- RUN go build -o myapp
 
-FROM alpine
-WORKDIR /app
-COPY --from=builder /app/myapp .
-CMD ["./myapp"]
+- FROM alpine
+- WORKDIR /app
+- COPY --from=builder /app/myapp .
+- CMD ["./myapp"]
 
 # Container Orchestration
 
